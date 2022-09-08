@@ -1,0 +1,270 @@
+html{
+    background-image: url("img\inicio pokemon gold and silver.jpg");
+}
+
+.principal{
+    display: flex;
+    height: 100hv;
+    justify-content: center;  
+}
+.consola{
+    display: flex;
+    flex-direction: colum;
+    background-color: yellow;
+    width: 420px;
+    height: 700px;
+    margin: 20px;
+    border-radius: 20px 20px 50% 50% / 20px 20px 50% 50%;
+    box-shadow: 20px 20px 10px grey;
+}
+.pantalla{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    width: auto;
+    margin: 30px 30px 20px 30px;
+    border-radius: 20px;
+}
+
+.screen{
+    display:flex;
+    background-color: grey;
+    height: 200px;
+    width: 290px;
+    margin: 40px 40px 0px 40px;
+}
+
+.gameboy{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+p {
+    font-family: 'Sigmar One', cursive;    
+    font-style: italic, bold;
+    font-size: 20px;
+    color:white;
+}
+
+.divnintendo{
+    display: flex;
+    justify-content: center;
+}
+
+.nintendo{
+    display: flex;
+    color: rgb(5, 83, 83);
+    width:auto;
+    text-align: center;
+    justify-content: center;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: rgb(177, 177, 7);
+    border-radius: 10px;
+}
+
+.crucetaybotones{
+    display: flex;    
+    justify-content: space-between;
+    margin: 15px 30px 50px 30px;
+}
+
+.divcross {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 90px;
+    height: 90px;
+}
+.crossup, .crossleft, .crosscenter, .crossright, .crossdown{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    box-shadow: 5px 5px 10px rgb(8, 8, 171);
+}
+
+.flecha-arriba{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.flecha-izquierda{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.flecha-abajo{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.flecha-derecha{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.flecha-abajo, .flecha-arriba, .flecha-derecha, .flecha-izquierda{
+    display: flex;
+    align-self: center;
+    width: 0;
+	height: 0;
+}
+
+.flecha-abajo{
+    border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid rgb(8, 8, 171);
+}
+
+.flecha-izquierda{
+    border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid rgb(8, 8, 171);
+}
+
+.flecha-derecha{
+    border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid rgb(8, 8, 171);
+}
+
+.flecha-arriba{
+    border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid rgb(8, 8, 171);
+}
+
+.flecha-centro{
+    display: flex;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(8, 8, 171);
+    border-radius: 50%;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: rgb(53, 53, 53);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px grey;
+}
+.boton-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 129, 0);
+    color: rgb(53, 53, 53);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px grey;
+
+}
+
+.boton-a{
+    align-self: flex-start;
+}
+
+.boton-b{
+    align-self: end;
+}
+
+.botones-select-start, .select-start{
+    display: flex;
+    width: 150px;
+    align-self: center ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.select-start{
+    color: rgb(177, 177, 7);
+}
+
+.altavoz{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    align-self: flex-end;   
+    -webkit-transform: rotate(-3deg);
+}
+
+.altavoz-linea1{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea2{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea3{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea4{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea5{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea6{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea7{
+    display: flex;
+    flex-direction: row;
+}
+
+.altavoz-linea8{
+    display: flex;
+    flex-direction: row;
+}
+
+.hoyo{
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 4px;
+}
+
+.hoyo1{
+    background-color: rgb(162, 162, 0);
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 4px;
+}
+
+.hoyo2{
+    background-color: yellow;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 4px;
+}
