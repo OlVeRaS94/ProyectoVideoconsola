@@ -1,44 +1,69 @@
-html{
-    background-image: url("img\inicio pokemon gold and silver.jpg");
-}
-
 .principal{
     display: flex;
-    height: 100hv;
-    justify-content: center;  
+    height: auto;
+    width: auto;
+    justify-content: center;
 }
-.consola{
+
+.consola {
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
     background-color: yellow;
     width: 420px;
     height: 700px;
     margin: 20px;
-    border-radius: 20px 20px 50% 50% / 20px 20px 50% 50%;
+    border-radius: 20px 20px 50% 50% / 20px 20px 50px 50px;
     box-shadow: 20px 20px 10px grey;
 }
+.power{
+    display: flex;
+    color: white;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+.pikachu{
+    float: left;
+    width: 50px;
+    margin: 20px 0px 0px -50px;
+}
+
+.pichu{
+    float: right;
+    width: 50px;
+    margin: -153px 400px 40px 310px;
+}
+
+.logo{
+    display: flex;
+    width: 200px;
+    margin: -50px 0px 40px 100px;
+}
+
+
 .pantalla{
     display: flex;
     flex-direction: column;
     background-color: black;
     height: 300px;
     width: auto;
-    margin: 30px 30px 20px 30px;
+    margin : 30px 30px 20px 30px;
     border-radius: 20px;
 }
 
-.screen{
+.pantalla1{
     display:flex;
     background-color: grey;
     height: 200px;
-    width: 290px;
-    margin: 40px 40px 0px 40px;
+    width: 200px;
+    margin: 10px 7px 0px 100px;
 }
 
 .gameboy{
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 0px 50px 50px 50px;
 }
 
 p {
@@ -48,21 +73,21 @@ p {
     color:white;
 }
 
-.divnintendo{
+.nintendo{
     display: flex;
     justify-content: center;
 }
 
-.nintendo{
+.nintendo1{
     display: flex;
-    color: rgb(5, 83, 83);
+    color: rgb(170, 170, 10);
     width:auto;
     text-align: center;
     justify-content: center;
     border-style: solid ;
-    border-width: 2px;
-    border-color: rgb(177, 177, 7);
-    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(170, 170, 10);
+    border-radius: 100px;
 }
 
 .crucetaybotones{
@@ -71,88 +96,97 @@ p {
     margin: 15px 30px 50px 30px;
 }
 
-.divcross {
+.flecha {
     display: grid;
     grid-template-columns: auto auto auto ;
     width: 90px;
     height: 90px;
 }
-.crossup, .crossleft, .crosscenter, .crossright, .crossdown{
+
+.flecha-arriba1, .flecha-izquierda1, .circulo-centro, .flecha-derecha1, .flecha-abajo1{
     display: flex;
     align-content: center;
     justify-content: center;
     background-color: blue;
     width: 30px;
     height: 30px;
-    box-shadow: 5px 5px 10px rgb(8, 8, 171);
+    box-shadow: 5px 5px 10px rgb(10, 10, 170);
 }
 
-.flecha-arriba{
+.flecha-arriba1{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.flecha-izquierda{
+.flecha-izquierda1{
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-bottom-left-radius:  5px;
 }
 
-.flecha-abajo{
-    border-top-left-radius: 5px;
+.flecha-derecha1{
     border-top-right-radius: 5px;
+    border-bottom-right-radius:  5px;
 }
 
-.flecha-derecha{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.flecha-abajo1{
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
 }
 
-.flecha-abajo, .flecha-arriba, .flecha-derecha, .flecha-izquierda{
+.flecha-arriba, .flecha-izquierda, .flecha-derecha, .flecha-abajo{
     display: flex;
     align-self: center;
     width: 0;
 	height: 0;
 }
-
-.flecha-abajo{
-    border-left: 10px solid transparent;
+.flecha-arriba {
+	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 20px solid rgb(8, 8, 171);
+	border-bottom: 20px solid rgb(10, 10, 170);
 }
 
-.flecha-izquierda{
-    border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 20px solid rgb(8, 8, 171);
+.flecha-izquierda {
+	border-top: 10px solid transparent;
+	border-right: 20px solid rgb(10, 10, 170);
+	border-bottom: 10px solid transparent;
 }
 
-.flecha-derecha{
-    border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 20px solid rgb(8, 8, 171);
+.flecha-derecha {
+	border-top: 10px solid transparent;
+	border-left: 20px solid rgb(10, 10, 170);
+	border-bottom: 10px solid transparent;
 }
 
-.flecha-arriba{
-    border-left: 10px solid transparent;
+.flecha-abajo {
+	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 20px solid rgb(8, 8, 171);
+	border-top: 20px solid rgb(10, 10, 170);
 }
 
-.flecha-centro{
+.circulo {
     display: flex;
     align-self: center;
     height: 20px;
     width: 20px;
-    background-color: rgb(8, 8, 171);
+    background-color: rgb(10, 10, 170);
     border-radius: 50%;
 }
 
-.botones{
+.circulo1 {
     display: flex;
-    flex-direction: row;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(10, 10, 170);
+    border-radius: 50%;
 }
 
-.boton-a{
+.botones {
+      display: flex;
+      flex-direction: row;
+}
+
+.boton-a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,8 +196,10 @@ p {
     width: 50px;
     border-radius: 25px;
     box-shadow: 3px 3px 5px grey;
+
 }
-.boton-b{
+
+.boton-b {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,16 +211,15 @@ p {
     box-shadow: 3px 3px 5px grey;
 
 }
-
-.boton-a{
+.boton-b {
+    align-self: flex-end;
+    
+}
+.boton-a {
     align-self: flex-start;
 }
 
-.boton-b{
-    align-self: end;
-}
-
-.botones-select-start, .select-start{
+.botones-select-start, .select-start {
     display: flex;
     width: 150px;
     align-self: center ;
@@ -192,60 +227,68 @@ p {
     justify-content: space-around;
 }
 
-.select-start{
-    color: rgb(177, 177, 7);
+.boton-select, .boton-start {
+    display: flex;
+    background-color: black;
+    width: 40px;
+    height: 15px;
+    border-radius: 5px;
 }
 
-.altavoz{
+.select-start {
+    color:rgb(170, 170, 10);
+}
+
+.altavoz {
     display: flex;
     width: 100px;
-    height: 100px;
+    height: 400px;
     flex-direction: column;
     align-self: flex-end;   
     -webkit-transform: rotate(-3deg);
+    margin: -50px 10px 0px 0px;
 }
 
-.altavoz-linea1{
+.altavoz-linea1 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea2{
+.altavoz-linea2 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea3{
+.altavoz-linea3 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea4{
+.altavoz-linea4 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea5{
+.altavoz-linea5 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea6{
+.altavoz-linea6 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea7{
+.altavoz-linea7 {
     display: flex;
     flex-direction: row;
 }
 
-.altavoz-linea8{
+.altavoz-linea8 {
     display: flex;
     flex-direction: row;
 }
-
-.hoyo{
+.hoyo {
     background-color: black;
     width: 4px;
     height: 4px;
@@ -253,15 +296,15 @@ p {
     margin: 4px;
 }
 
-.hoyo1{
-    background-color: rgb(162, 162, 0);
+.hoyo1 {
+    background-color: rgb(160, 160, 0);
     width: 4px;
     height: 4px;
     border-radius: 2px;
     margin: 4px;
 }
 
-.hoyo2{
+.hoyo2 {
     background-color: yellow;
     width: 4px;
     height: 4px;
